@@ -1,0 +1,136 @@
+export const INITIAL_REPORTS = [
+    { 
+        id: '1', 
+        lat: 51.7592, 
+        long: 19.4560, 
+        title: "Dziura w drodze", 
+        category: "Infrastruktura",
+        status: "W TRAKCIE", 
+        date: "2025-11-28", 
+    },
+    { 
+        id: '2', 
+        lat: 51.7610, 
+        long: 19.4580, 
+        title: "Przepełniony kosz", 
+        category: "Czystość i Środowisko",
+        status: "ROZWIĄZANO",
+        date: "2025-11-20",
+    },
+    { 
+        id: '3', 
+        lat: 51.7630, 
+        long: 19.4610, 
+        title: "Awaria Latarni", 
+        category: "Infrastruktura", 
+        status: "W TRAKCIE",
+        date: "2025-11-15",
+    },
+    { 
+        id: '4', 
+        lat: 51.7550, 
+        long: 19.4520, 
+        title: "Wulgarny napis", 
+        category: "Wandalizm i Bezpieczeństwo", 
+        status: "OCZEKUJĄCY",
+        date: "2025-11-05",
+    },
+    { 
+        id: '5', 
+        lat: 51.7700, 
+        long: 19.4600, 
+        title: "Zatrzymanie Tramwajów", 
+        category: "Transport Miejski", 
+        status: "ROZWIĄZANO",
+        date: "2025-12-02",
+    },
+    { 
+        id: '6', 
+        lat: 51.7655, 
+        long: 19.4595, 
+        title: "Zniszczona ławka w parku", 
+        category: "Wandalizm i Bezpieczeństwo",
+        status: "OCZEKUJĄCY", 
+        date: "2025-12-03", 
+    },
+    { 
+        id: '7', 
+        lat: 51.7580, 
+        long: 19.4505, 
+        title: "Nielegalne wysypisko śmieci", 
+        category: "Czystość i Środowisko", 
+        status: "W TRAKCIE",
+        date: "2025-11-25",
+    },
+    { 
+        id: '8', 
+        lat: 51.7605, 
+        long: 19.4575, 
+        title: "Uszkodzony hydrant na rogu", 
+        category: "Infrastruktura", 
+        status: "ROZWIĄZANO",
+        date: "2025-11-10",
+    },
+    { 
+        id: '9', 
+        lat: 51.7640, 
+        long: 19.4635, 
+        title: "Brak oznaczenia na przejściu", 
+        category: "Wandalizm i Bezpieczeństwo",
+        status: "OCZEKUJĄCY",
+        date: "2025-12-04",
+    },
+    { 
+        id: '10', 
+        long: 19.4515,
+        lat: 51.7530, 
+        title: "Zalana piwnica po ulewie", 
+        category: "Infrastruktura",
+        status: "W TRAKCIE",
+        date: "2025-12-01",
+    },
+    { 
+        id: '11', 
+        lat: 51.7685, 
+        long: 19.4620, 
+        title: "Zaśmiecony przystanek autobusowy", 
+        category: "Czystość i Środowisko", 
+        status: "ROZWIĄZANO",
+        date: "2025-11-18",
+    },
+    { 
+        id: '12', 
+        lat: 51.7625, 
+        long: 19.4550, 
+        title: "Powalony znak drogowy (wichura)", 
+        category: "Wandalizm i Bezpieczeństwo",
+        status: "OCZEKUJĄCY",
+        date: "2025-12-03",
+    }
+];
+
+export const INITIAL_POINTS = 1065;
+
+export const INITIAL_TRANSACTIONS = [
+    { 
+        id: 'T1', 
+        type: 'EARNED', 
+        amount: 50, 
+        description: 'Za zgłoszenie wizualne: Dziura w drodze', 
+        date: '2025-11-28' 
+    },
+    { 
+        id: 'T2', 
+        type: 'REDEEMED', 
+        amount: -100, 
+        description: 'Wymiana punktów na: Darmowa Kawa', 
+        date: '2025-12-01' 
+    },
+    { 
+        id: 'T3', 
+        type: 'EARNED', 
+        amount: 15, 
+        description: 'Za zgłoszenie tekstowe: Zatrzymanie Tramwajów',
+        date: '2025-12-02' 
+    },
+];

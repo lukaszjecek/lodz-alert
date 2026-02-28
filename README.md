@@ -7,7 +7,9 @@
 ### Overview
 Currently, reporting urban issues is perceived as difficult and discouraging due to complicated procedures, which leads to a waste of time and money for both residents and the city. Łódź Alert solves this by enabling direct and instantaneous reporting of defects to city officials.
 
+<p align="center">
 <img src="assets/demo-1.gif" width="300" alt="Łódź Alert App Demo" />
+</p>
 
 ### Key Features
 * **2-Click Reporting:** Users take a photo of an issue, and the system handles the rest - no unnecessary forms or stress.
@@ -15,7 +17,9 @@ Currently, reporting urban issues is perceived as difficult and discouraging due
 * **Geospatial Mapping:** Every report is automatically tagged on a map, allowing city services to respond faster and better visualize problem areas.
 * **Gamification System:** For every confirmed report, users receive points in their digital wallet, which can be exchanged for rewards from "Karta Łodzianina" partners.
 
+<p align="center">
 <img src="assets/demo-2.gif" width="300" alt="Łódź Alert App Demo" />
+</p>
 
 ### Project Presentation
 A detailed description of the vision, business architecture, and benefits for the city and residents can be found in the full project presentation:
@@ -26,7 +30,9 @@ The presentation includes:
 * Examples of rewards in the point system (MPK public transport tickets, vouchers, discounts).
 * Benefits for business partners and the city's public image.
 
+<p align="center">
 <img src="assets/demo-3.gif" width="300" alt="Łódź Alert App Demo" />
+</p>
 
 ### Tech Stack
 The application was built as a modern mobile prototype using:
